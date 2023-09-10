@@ -25,6 +25,13 @@ img {
     display: block;
 }
 
+/*main style*/
+.conteiner {
+    width: 1280px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
 .header {
     background: linear-gradient(90deg,
             rgba(0, 197, 235, 0.3) -1.97%,
@@ -70,12 +77,6 @@ img {
     padding: 145px 0;
     background-color: #06071B;
     position: relative;
-}
-
-.conteiner {
-    width: 1280px;
-    padding: 0 16px;
-    margin: 0 auto;
 }
 
 .hero-title {
@@ -129,4 +130,37 @@ img {
 .button:hover {
     border: 1px solid var(--LINEAR, #00C5EB);
     background: #06071B;
+}
+
+
+.key-features>.conteiner {
+    padding: 100px 157px;
+}
+
+.key-features__title {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.key-features__main-text {
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 56px;
+}
+
+.key-features__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 454px;
+}
+
+.key-features__list-item {
+    flex-basis: 256px;
 }

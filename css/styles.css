@@ -67,7 +67,7 @@ img {
 }
 
 .hero {
-    padding: 145px;
+    padding: 145px 0;
     background-color: #06071B;
     position: relative;
 }

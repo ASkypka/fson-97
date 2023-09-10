@@ -4,27 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mobileapp</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a class="logo" href="./index.html">Mobileapp</a>
-        <ul>
-          <li><a class="nav-link" href="#">HOME</a></li>
-          <li><a class="nav-link" href="#">FEATURES</a></li>
-          <li><a class="nav-link" href="#">TEAM</a></li>
-          <li><a class="nav-link" href="#">TESTIMONIALS</a></li>
-          <li><a class="nav-link" href="#">CONTACT</a></li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="conteiner">
+        <nav class="nav">
+          <a class="logo" href="./index.html">Mobileapp</a>
+          <ul class="nav-list">
+            <li><a class="nav-link" href="#">HOME</a></li>
+            <li><a class="nav-link" href="#">FEATURES</a></li>
+            <li><a class="nav-link" href="#">TEAM</a></li>
+            <li><a class="nav-link" href="#">TESTIMONIALS</a></li>
+            <li><a class="nav-link" href="#">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <section class="hero">
@@ -33,11 +42,13 @@
         <ul>
           <li>
             <a href="#"
-              >Real-time updates and notifications for timely information</a>
+              >Real-time updates and notifications for timely information</a
+            >
           </li>
           <li>
             <a href="#"
-              >Robust analytics and reporting for data-driven insights</a>
+              >Robust analytics and reporting for data-driven insights</a
+            >
           </li>
           <li>
             <a href="#">Offline capabilities for uninterrupted use</a>
